@@ -20,8 +20,6 @@ void	PhoneBook::addcontact(const Contact& newContact)
 		indContacts = 1;
 	m_contact[indContacts] = newContact;
 	std::cout << "Contact added successfully." << std::endl;
-	std::cout << numContacts << std::endl;
-	std::cout << indContacts << std::endl;
 }
 
 void	PhoneBook::searchcontact()
